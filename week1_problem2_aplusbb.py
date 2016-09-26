@@ -4,4 +4,4 @@ file.close()
 file = open('aplusbb.out','w')
 file.write(str(a+b**2)+'\n')
 file.close()
-#Задание сдано 123
+#Задание сдано
