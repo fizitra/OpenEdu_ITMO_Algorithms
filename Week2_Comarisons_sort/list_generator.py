@@ -1,7 +1,7 @@
 from random import randint, random
 
 def list_generator(N, k, precision):
-    new_list = [str(round(random()*randint(0, k),precision)) for i in range(N)]
+    new_list = [str(randint(0, k)) for i in range(N)]
     return new_list
 
 if __name__ == '__main__':
