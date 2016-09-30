@@ -26,23 +26,14 @@ def merge_sort(list_sort):
 
 if __name__ == '__main__':
     from time import time
-    f = open('inversions.in','r')
+    f = open('inversion1.in','r')
     A = [list(map(int,line.strip().split())) for line in f]
     f.close()
     k = 0
-    start = time()
+    #start = time()
     merge_sort(A[1])
-    print(time()-start)
+    #print(time()-start)
     f = open('inversions.out', 'w')
     f.write(str(k)+"\n")
     f.close()
-    k = 0
-    start = time()
-    for i in range(len(A[1])):
-        for j in range(i+1,len(A[1])):
-            if i < j and A[1][i] > A[1][j]:
-                k += 1
-    print(time()-start)
-    f = open('inversions.out', 'a')
-    f.write(str(k))
-    f.close()
+
