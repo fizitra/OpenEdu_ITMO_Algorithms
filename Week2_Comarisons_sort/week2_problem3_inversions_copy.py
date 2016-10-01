@@ -32,7 +32,7 @@ def merge(list_left, list_right, len_list_sort, len_left, len_right):
 
 def merge_sort(list_sort, len_list_sort):
     '''
-    merge_sort - сортировка слиянием. На вход подаются два парамета
+    merge_sort - сортировка слиянием. На вход подаются два параметра
     :param list_sort: массив который необходимо отсортировать
     :param len_list_sort: длина этого массива в виде константы
     :return: возвращается отсортированный массив
